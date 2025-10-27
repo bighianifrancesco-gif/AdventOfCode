@@ -1021,3 +1021,4 @@ for i in range(len(col1)):
     similarity_score=col1[i] * count+ similarity_score;
 
 print(similarity_score);
+#test
