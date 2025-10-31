@@ -24,8 +24,6 @@ print(total_sum)
 ################################################
 total_sum2=0
 
-do_pattern= r"do\(\)"
-dont_pattern= r"don't\(\)"
 
 master_pattern = (
     r"mul\((?P<x>\d{1,3}),(?P<y>\d{1,3})\)|(?P<do>do\(\))|(?P<dont>don't\(\))"
